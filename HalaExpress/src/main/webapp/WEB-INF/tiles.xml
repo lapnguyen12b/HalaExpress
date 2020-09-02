@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<!-- <definition name="base.definition" template="/WEB-INF/jsp/layout.jsp">
+		<put-attribute name="script" value="" />
+		<put-attribute name="title" value="" />
+		<put-attribute name="templateInsertCard" value="" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition> -->
+	<!-- Template 2 -->
+	<!-- <definition name="withdraw" extends="base.definition">
+		<put-attribute name="script" value="inputAmount.js" />
+		<put-attribute name="title" value="With Draw" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/withdraw.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition> -->
+	<!-- chuyen tien -->
+	<!--<definition name="transfer" extends="base.definition">
+		<put-attribute name="script" value="transfer.js" />
+		<put-attribute name="title" value="Transfer" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/transfer.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- nhap Card nhan $ -->
+	<!--<definition name="accountReceive" extends="base.definition">
+		<put-attribute name="script" value="accountReceive.js" />
+		<put-attribute name="title" value="Transfer" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/accountReceive.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- show TT Card nhan $ -->
+	<!--<definition name="informationReceive" extends="base.definition">
+		<put-attribute name="script" value="informationReceive.js" />
+		<put-attribute name="title" value="Transfer" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content"
+			value="/WEB-INF/jsp/informationReceive.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- nhap $ chuyen -->
+	<!--<definition name="enterAmountReceive" extends="base.definition">
+		<put-attribute name="script" value="enterAmountReceive.js" />
+		<put-attribute name="title" value="Transfer" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content"
+			value="/WEB-INF/jsp/enterAmountReceive.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- confirm truoc khi chuyen -->
+	<!--<definition name="confirmTransfer" extends="base.definition">
+		<put-attribute name="script" value="confirmTransfer.js" />
+		<put-attribute name="title" value="Transfer" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/confirmTransfer.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>
+	<definition name="checkbalance" extends="base.definition">
+		<put-attribute name="script" value="checkbalance.js" />
+		<put-attribute name="title" value="Check Balance" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/checkbalance.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- activity view history -->
+	<!--<definition name="viewhistory" extends="base.definition">
+		<put-attribute name="script" value="viewHistory.js" />
+		<put-attribute name="title" value="View History" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/viewhistory.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- activity results history -->
+	<!--<definition name="resultsHistory" extends="base.definition">
+		<put-attribute name="script" value="resultsHistory.js" />
+		<put-attribute name="title" value="View History" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content"
+			value="/WEB-INF/jsp/templateResultsHistory.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>
+	<definition name="changePin" extends="base.definition">
+		<put-attribute name="script" value="changePIN.js" />
+		<put-attribute name="title" value="Change PIN" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/changePin.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>
+	<definition name="reenterPIN" extends="base.definition">
+		<put-attribute name="script" value="reenterPIN.js" />
+		<put-attribute name="title" value="Change PIN" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/reenterPIN.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>
+	<definition name="printrecepit" extends="base.definition">
+		<put-attribute name="script" value="printreceipt.js" />
+		<put-attribute name="title" value="Print Receipt" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/printrecepit.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>
+	<definition name="printrecepitwithdraw" extends="base.definition">
+		<put-attribute name="script" value="printreceiptwithdraw.js" />
+		<put-attribute name="title" value="Print Receipt" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/printrecepitwithdraw.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>
+	<definition name="withdrawfail" extends="base.definition">
+		<put-attribute name="script" value="withdrawfail.js" />
+		<put-attribute name="title" value="Withdraw Fail" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/withdrawfail.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>
+	<definition name="enterother" extends="base.definition">
+		<put-attribute name="script" value="enterother.js" />
+		<put-attribute name="title" value="Enter Other" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/enterother.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!--index -->
+	<definition name="index" extends="base.definition">
+		<put-attribute name="script" value="jsIndex.js" />
+		<put-attribute name="content" value="/WEB-INF/jsp/templateIndex.jsp" />
+		<put-attribute name="title" value="HLD Bank" />
+		<put-attribute name="templateInsertCard"
+			value="/WEB-INF/jsp/templateInsertCard.jsp" />
+	</definition>
+	<!-- main -->
+	<!--<definition name="main" extends="base.definition">
+		<put-attribute name="title" value="HLD Bank" />
+		<put-attribute name="script" value="jsMain.js" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/templateMain.jsp" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+	</definition> -->
+	<!-- inputPin -->
+	<!--<definition name="inputPin" extends="base.definition">
+		<put-attribute name="script" value="jsInputPin.js" />
+		<put-attribute name="title" value="Input PIN" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content" value="/WEB-INF/jsp/templateInputPin.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- errorCardNo -->
+	<!--<definition name="errorCardNo" extends="base.definition">
+		<put-attribute name="script" value="jsErrorCardNo.js" />
+		<put-attribute name="title" value="Error card" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content"
+			value="/WEB-INF/jsp/templateErrorCardNo.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>
+	<definition name="successValidate" extends="base.definition">
+		<put-attribute name="script" value="jsSuccessValidate.js" />
+		<put-attribute name="title" value="Success validate" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content"
+			value="/WEB-INF/jsp/templateErrorCardNo.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>
+	<definition name="successChangePIN" extends="base.definition">
+		<put-attribute name="script" value="enjectcard.js" />
+		<put-attribute name="title" value="Success Change PIN" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content"
+			value="/WEB-INF/jsp/templateErrorCardNo.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- validatingCard -->
+	<!--<definition name="validatingCard" extends="base.definition">
+		<put-attribute name="script" value="validatingCard.js" />
+		<put-attribute name="title" value="Validating card" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content"
+			value="/WEB-INF/jsp/templateValidatingCard.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- errorPage -->
+	<!--<definition name="errorPage" extends="base.definition">
+		<put-attribute name="script" value="errorPage.js" />
+		<put-attribute name="title" value="Error page" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content"
+			value="/WEB-INF/jsp/templateErrorPage.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	<!-- validating PIN -->
+	<!--<definition name="validatingPin" extends="base.definition">
+		<put-attribute name="script" value="jsValidatingPin.js" />
+		<put-attribute name="title" value="Validating PIN" />
+		<put-attribute name="template_bt_right" value="/WEB-INF/jsp/template_bt_right.jsp" />
+		<put-attribute name="content"
+			value="/WEB-INF/jsp/templateValidatingPin.jsp" />
+		<put-attribute name="template_bt_left" value="/WEB-INF/jsp/template_bt_left.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/bottom.jsp" />
+	</definition>-->
+	
+	<definition name="base.definition" template="/WEB-INF/jsp/home/layout_include_header.jsp">
+		<put-attribute name="script" value="" />
+		<put-attribute name="title" value="" />
+		<put-attribute name="templateInsertCard" value="" />
+		<put-attribute name="content" value="/WEB-INF/jsp/home/home.jsp" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/home/layout_include_bottom.jsp" />
+	</definition>
+	<definition name="home" extends="base.definition">
+		<put-attribute name="script" value="" />
+		<put-attribute name="title" value="123456" />
+		<put-attribute name="bottom" value="/WEB-INF/jsp/home/layout_include_bottom.jsp" />
+	</definition>
+</tiles-definitions>
